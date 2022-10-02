@@ -16,7 +16,7 @@ The first function, check_guess, checks if the guess is in the randomly generate
 
 ![check_guess](https://user-images.githubusercontent.com/67421468/193422406-e724c29f-4a90-410c-b1b9-0997aaf254c0.png)
 
-In the second function, ask_for_input, I've used "while true" loop as it runs continuously, within which the guess is taken and checked to see if it is a single, alphabetical letter with the use of an "if" statement; if this is the case, then with the help of a "break" statement, the loop is terminated and enables you to skip to the next line of code after the loop, otherwise, an else statement is printed, telling the player that their guess is invalid and that they'll need to enter a single alphabetical character. Outside of the loop, the previously created check_guess function is then called.
+In the second function, ask_for_input, I've used a "while true" loop as it runs continuously, within which the guess is taken and checked to see if it is a single, alphabetical letter with the use of an "if" statement; if this is the case, then with the help of a "break" statement, the loop is terminated and enables you to skip to the next line of code after the loop, otherwise, an else statement is printed, telling the player that their guess is invalid and that they'll need to enter a single alphabetical character. Outside of the loop, the previously created check_guess function is then called.
 
 ![ask_for_input](https://user-images.githubusercontent.com/67421468/193422440-5babe692-bc2c-44e4-a7ef-e02b333bbc19.png)
 
