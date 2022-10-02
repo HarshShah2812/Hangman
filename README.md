@@ -36,6 +36,6 @@ Secondly, I have created 'def check_guess(self, guess)', within which the guess 
 
 ![def check_guess](https://user-images.githubusercontent.com/67421468/193476312-c5664566-ff8d-4d2e-aaaa-b4e086e6667a.png)
 
-Thirdly, I have created 'def ask_for_input(self)', within which a while loop implemented and who's condition is set to "true", ensuring that the loop runs continuously. Inside the loop, the guess is checked; if the guess doesn't contain a single, alphabetical letter, or if the guess is in in the list of letters guessed, the player will be advised accordingly; otherwise, the guess will be passed through the check_guess method and will be added to the list of guesses.
+Thirdly, I have created 'def ask_for_input(self)', within which a while loop is implemented and who's condition is set to "true", ensuring that the loop runs continuously. Inside the loop, the guess is checked; if the guess doesn't contain a single, alphabetical letter, or if the guess is in in the list of letters guessed, the player will be advised accordingly; otherwise, the guess will be passed through the check_guess method and will be added to the list of guesses.
 
 ![def ask_for_input](https://user-images.githubusercontent.com/67421468/193477139-ee463cf6-a504-42ee-ae5c-a9c26bd6aad0.png)
