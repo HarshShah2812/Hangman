@@ -39,3 +39,10 @@ Secondly, I have created 'def check_guess(self, guess)', within which the guess 
 Thirdly, I have created 'def ask_for_input(self)', within which a while loop is implemented and who's condition is set to "true", ensuring that the loop runs continuously. Inside the loop, the guess is checked; if the guess doesn't contain a single, alphabetical letter, or if the guess is in in the list of letters guessed, the player will be advised accordingly; otherwise, the guess will be passed through the check_guess method and will be added to the list of guesses.
 
 ![def ask_for_input](https://user-images.githubusercontent.com/67421468/193477139-ee463cf6-a504-42ee-ae5c-a9c26bd6aad0.png)
+
+### Playing the game
+
+Here, I defined the game (play_game) and the logic behind it. I did this by creating the word list and assigning it to "word_list". Then, I assigned the Hangman class with the parameters to a new variable "game". With regards to the logic, I created a "while" loop, assigning the condition "True" to it; within the loop, I used an "if" statement with the condition that if the player has no lives left, the computer will tell the player that they've lost, as well as what the word was; this is followed by an "elif" statement with the condition that if the number of letters left to guess is greater than 0, then the game will continue to ask fro 
+
+![play_game()](https://user-images.githubusercontent.com/67421468/194377061-ba341ca0-5168-45d2-a135-5b89ae3e033e.png)
+
