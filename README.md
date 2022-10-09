@@ -18,10 +18,10 @@ The first function, check_guess, checks if the guess is in the randomly generate
 
 In the second function, ask_for_input, I've used a "while true" loop as it runs continuously, within which the guess is taken and checked to see if it is a single, alphabetical letter with the use of an "if" statement; if this is the case, then with the help of a "break" statement, the loop is terminated and enables you to skip to the next line of code after the loop, otherwise, an else statement is printed, telling the player that their guess is invalid and that they'll need to enter a single alphabetical character. Outside of the loop, the previously created check_guess function is then called.
 
-![ask_for_input()](https://user-images.githubusercontent.com/67421468/194754771-c03dcc47-27f2-4bc7-8c9e-5623b20c54a3.png)
-
 
 Finally, the ask_for_input method is called by creating a new object of the Hangman class, in this case "h".
+
+![ask_for_input()](https://user-images.githubusercontent.com/67421468/194754771-c03dcc47-27f2-4bc7-8c9e-5623b20c54a3.png)
 
 
 
