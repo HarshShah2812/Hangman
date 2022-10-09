@@ -21,7 +21,7 @@ In the second function, ask_for_input, I've used a "while true" loop as it runs 
 ![ask_for_input()](https://user-images.githubusercontent.com/67421468/194754771-c03dcc47-27f2-4bc7-8c9e-5623b20c54a3.png)
 
 
-Finally, the ask_for_input function is called.
+Finally, the ask_for_input method is called by creating a new object of the Hangman class, in this case "h".
 
 
 
