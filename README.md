@@ -18,17 +18,18 @@ The first function, check_guess, checks if the guess is in the randomly generate
 
 In the second function, ask_for_input, I've used a "while true" loop as it runs continuously, within which the guess is taken and checked to see if it is a single, alphabetical letter with the use of an "if" statement; if this is the case, then with the help of a "break" statement, the loop is terminated and enables you to skip to the next line of code after the loop, otherwise, an else statement is printed, telling the player that their guess is invalid and that they'll need to enter a single alphabetical character. Outside of the loop, the previously created check_guess function is then called.
 
-![ask_for_input](https://user-images.githubusercontent.com/67421468/193422440-5babe692-bc2c-44e4-a7ef-e02b333bbc19.png)
+![ask_for_input()](https://user-images.githubusercontent.com/67421468/194754771-c03dcc47-27f2-4bc7-8c9e-5623b20c54a3.png)
+
 
 Finally, the ask_for_input function is called.
 
-![ask_for_input()](https://user-images.githubusercontent.com/67421468/193422460-c33ea13f-5300-478c-9bb7-9fdc298ddfbb.png)
+
 
 ### Milestone 3
 
 Here, I have created a class called "Hangman", in which I have put together the code I wrote in the previous milestones, making a few tweaks to it, as well as initialising the attributes that will be assigned to the class.
 
-To define this class, I have firstly used ´def _init_(self, word_list, num_lives = 5)' to initialise the following attributes of the class: "word" - the word to be guessed, "word_guessed" - the list of letters for the word, "num_letters" - the number of unique letters in the word that are yet to be guessed, "num_lives" - the number of lives the player has at the start, "word_list" - a list of the words that will be used for the game and "list_of_guesses" - a list of the guesses already attempted, which is set to empty initially; "word_list" and '"num_lives" = 5' have been passed as parameters, alongside "self", which allows us to refer to the attributes of the class.
+To define this class, I have firstly used ´def __init__(self, word_list, num_lives = 5)' to initialise the following attributes of the class: "word" - the word to be guessed, "word_guessed" - the list of letters for the word, "num_letters" - the number of unique letters in the word that are yet to be guessed, "num_lives" - the number of lives the player has at the start, "word_list" - a list of the words that will be used for the game and "list_of_guesses" - a list of the guesses already attempted, which is set to empty initially; "word_list" and '"num_lives" = 5' have been passed as parameters, alongside "self", which allows us to refer to the attributes of the class.
 
 ![def _init_](https://user-images.githubusercontent.com/67421468/193475845-b97088df-dcc0-4061-a74f-6e3112964be3.png)
 
